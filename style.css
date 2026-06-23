@@ -20,8 +20,7 @@ table, th, td {
     border-radius: 2px;
     border-collapse: collapse;
     font-family: 'Comic Sans MS';
-    color:aquamarine;
-    width:70%;
+    color:dark-green
 }
 th, td {
     padding: 10px;
