@@ -14,14 +14,17 @@ caption {
     text-align: center;
     font-size: large;
 }
-table, th, td {
-    border-style: dotted;
-    border-color: seagreen;
-    border-width: 2px;
-    border-radius: 2px;
-    border-collapse: collapse;
-    font-family: 'Comic Sans MS';
-    color:dark-green
-    padding: 10px;
-    text-align: center;
+table{
+    th, td {
+        border-style: dotted;
+        border-color: seagreen;
+        border-width: 2px;
+        border-radius: 2px;
+        border-collapse: collapse;
+        font-family: 'Comic Sans MS';
+        color:dark-green;
+        padding: 10px;
+        text-align: center;
+    }
+    margin:auto;
 }
