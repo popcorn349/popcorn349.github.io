@@ -1,30 +1,30 @@
 body {
-    background-color: rgb(16, 73, 54);
+    background-color:#347B98;
 }
 caption {
     font-family: 'Comic Sans MS';
-    color:rgb(119, 175, 114);
+    color:#E3F7D4;
     text-align: center;
     caption-side: top;
     font-size: large;
 }
 .randomInfo {
     font-family:'Comic Sans MS';
-    color:rgb(119, 175, 114);
+    color:#E3F7D4;
     text-align: center;
     font-size: large;
-    background-color: #006400;
+    background-color: #66B032;
     padding-below: 20 px;
 }
 table{
     th, td {
         border-style: dotted;
-        border-color: seagreen;
+        border-color: #0247FE;
         border-width: 2px;
         border-radius: 2px;
         border-collapse: collapse;
         font-family: 'Comic Sans MS';
-        color:dark-green;
+        color:#E3F7D4;
         padding: 10px;
         text-align: center;
     }
