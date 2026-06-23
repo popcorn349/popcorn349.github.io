@@ -1,22 +1,28 @@
 body {
-    background-color: #556B2F;
+    background-color: rgb(16, 73, 54);
 }
-h1,h2{
+caption {
     font-family: 'Comic Sans MS';
-    color:rgb(6, 6, 105);
+    color:rgb(119, 175, 114);
     text-align: left;
     font-size: large;
 }
-p, pre{
+.randomInfo {
     font-family:'Times New Roman';
-    color:rgb(6, 6, 105);
+    color:rgb(119, 175, 114);
     text-align: center;
-    font-size: small;
+    font-size: large;
 }
 table, th, td {
-    border: 2px solid black;
+    border-style: dotted;
+    border-color: seagreen;
+    border-width: 2px;
+    border-radius: 2px;
     border-collapse: collapse;
-    font-family: 'Comic Sans MS';}
+    font-family: 'Comic Sans MS';
+    color:aquamarine;
+    width:70%;
+}
 th, td {
     padding: 10px;
     text-align: justify;
