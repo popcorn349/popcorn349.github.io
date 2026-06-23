@@ -22,9 +22,6 @@ table, th, td {
     border-collapse: collapse;
     font-family: 'Comic Sans MS';
     color:dark-green
-    margin: auto;
-}
-th, td {
     padding: 10px;
     text-align: center;
 }
