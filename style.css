@@ -9,11 +9,12 @@ caption {
     font-size: large;
 }
 .randomInfo {
-    font-family:'Times New Roman';
+    font-family:'Comic Sans MS';
     color:rgb(119, 175, 114);
     text-align: center;
     font-size: large;
     background-color: #006400;
+    padding-below: 20 px;
 }
 table{
     th, td {
