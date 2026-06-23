@@ -14,7 +14,7 @@ caption {
     text-align: center;
     font-size: large;
     background-color: #66B032;
-    padding-bottom: 20 px;
+    padding-bottom: 2 rem;
 }
 table{
     th, td {
@@ -27,6 +27,6 @@ table{
         color:#E3F7D4;
         text-align: center;
     }
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
