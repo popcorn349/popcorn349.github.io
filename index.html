@@ -7,30 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Website Test</title>
 </head>
-<body>
-        <div class="container-fluid">
-    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top"></nav>
-            <a class="navbar-brand" href="#">Reptiles</a>
+<body style="background-color:#347B98">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+           <a class="navbar-brand" href="#">Reptiles</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Basic Info</a>
+                        <a class="nav-link" href="index.html">Basic Info</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Additional Info</a>
                         <ul class="dropdown-menu">
                             <li class="nav-item"><a class="nav-link" href="gallery_page.html">Endangered Species Gallery</a></li>
-                            <li class="nav-item"></li><a class="nav-link" href="donate_page.html">Donate</a></li>
+                            <li class="nav-item"><a class="nav-link" href="donate_page.html">Donate</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
-    <div class="randomInfo">
+    </nav>
+        <div class="container-fluid">
+    <div class="randomInfo rounded-5 pt-5 pb-5">
     <p> "Reptiles are commonly defined as tetrapod vertebrate animals with an ectothermic metabolism and amniotic development." <br> ~ Sourced from <a href="https://en.wikipedia.org/wiki/Reptile" target="_self">Wikipedia</a></p>
-    <pre>
+    <pre style="font-family: Comic Sans MS">
     Here's a Common Rhyme to differentiate between Coral Snakes and King Snakes:
         Red touches yellow, 
         kill a fellow; 
@@ -38,10 +39,10 @@
         friend to Jack.
     Though it's better to not touch any snake you find in the wild!
     </pre>
-    <img src="https://a-z-animals.com/media/2022/01/Coral-Snake-vs-King-Snake-1050x450-1-1024x439.jpg" alt="Coral Snake vs King Snake">
+    <img src="https://a-z-animals.com/media/2022/01/Coral-Snake-vs-King-Snake-1050x450-1-1024x439.jpg" class="img-fluid rounded-5" alt="Coral Snake vs King Snake image">
     </div>
     <table class="table table-success">
-        <caption class="text-center">Reptile Classification</caption>
+        <caption class="text-center" color="#000000">Reptile Classification</caption>
         <tr>
             <th>Family</th>
             <th>Kingdom</th>
@@ -78,10 +79,6 @@
             <td>Crocodilia</td>
         </tr>
     </table>
-    </nav>
-
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
