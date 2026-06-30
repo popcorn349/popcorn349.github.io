@@ -7,8 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Website Test</title>
 </head>
-<body>
-  <table>
+<body style="background-color:#347B98">
+        <nav class="navbar navbar-expand-lg sticky-top bg-dark navbar-dark ps-5 pe-5">
+           <a class="navbar-brand" href="#">Reptiles</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Basic Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Additional Info</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li class="nav-item"><a class="nav-link" href="gallery_page.html" style="color: black;">Endangered Species Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link" href="donate_page.html" style="color: black;">Donate</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+<div class="container-fluid px-5">
+  <table class="table table-success table-sm">
+    <caption class="text-center" color="#000000">Endangered Reptiles</caption>
     <tr>
       <th>Species Name</th>
       <th># of individuals left</th>
@@ -28,7 +50,7 @@
       <td>Poaching</td>
     </tr>
     <tr>
-      <td>Cuban Crocodile</td>
+      <td >Cuban Crocodile</td>
       <td>3000-5000</td>
       <td>Habitat Loss</td>
     </tr>
@@ -48,5 +70,11 @@
       <td>Habitat Loss</td>
     </tr>
   </table>
+  <div class="randomInfo rounded-5 mt-2 py-3">
   <h1>Make a diference TODAY and Donate towards the protection and restoration of Native Reptile Habitats!</h1>
-  <a href="https://arcprotects.org/contribute/" class="btn btn-success">DONATE</a>
+  <a href="https://arcprotects.org/contribute/" class="btn btn-warning"><b>DONATE</b></a>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
