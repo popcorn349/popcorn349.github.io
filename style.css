@@ -3,29 +3,27 @@ body {
 }
 caption {
     font-family: 'Comic Sans MS';
-    color:#E3F7D4;
+    color:#000000;
     text-align: center;
     caption-side: top;
     font-size: large;
 }
 .randomInfo {
-    font-family:'Comic Sans MS';
-    color:#E3F7D4;
+    font-family:'nunito', sans-serif;
+    color:#000000;
     text-align: center;
     font-size: large;
-    background-color: #66B032;
-    padding-bottom: 8 rem;
+    background-color: #164f6b;
 }
 table{
     th, td {
-        border-style: dotted;
-        border-color: #0247FE;
+        border-style: solid;
+        border-color: #25408b;
         border-width: 2px;
         border-radius: 2px;
         border-collapse: collapse;
         font-family: 'Comic Sans MS';
-        color:#E3F7D4;
+        color:#1cb69d;
         text-align: center;
     }
-    margin: 2rem;
-}
+ }
